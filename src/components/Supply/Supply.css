@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Ajusta el ancho máximo según tus necesidades */
+.campo-largo {
+    max-width: 100%;
+    /* Permite el salto de línea */
+    white-space: pre-wrap;
+    /* Establece una altura máxima si es necesario */
+    max-height: 200px; /* Ajusta según tus necesidades */
+    /* Agrega scroll vertical si el contenido es muy largo */
+    overflow-y: auto; /* Cambia a 'scroll' si deseas siempre mostrar la barra de desplazamiento */
+    /* Puedes agregar otros estilos según tus preferencias de diseño */
+  }
+/* 
+.relative {
+    position: relative;
+    width: 700px;
+    height: 500px;
+} */
+
+/*
+table{
+    width: 100%;
+}
+  table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}	 */

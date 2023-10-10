@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.detInsumos{
+    width: 100%;
+    border: 1px solid;
+    font-size: 14px;
+    text-align: center;
+}
+
+.detInsumos thead{
+    background-color: #eaeaea;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: -25px !important;
+}
+.texto_info{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px !important;
+}
+
+.texto_se{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.encabezad{
+    display: flex;
+    flex-direction: row;
+}
+
+.gestion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.gestion p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.text-white.hover\:bg-custom-blue-light.focus\:ring-4.focus\:ring-primary-300.font-medium.rounded-lg.text-sm.px-4.py-2.gap-3 {
+    background-color: #b5382a;
+    font-weight: bold;
+}
+
+.relative.bg-white.py-10.px-20.shadow-2xl.mdm\:py-10.mdm\:px-8 {
+    border-radius: 10px;
+}
+
+.button.flex.items-center.justify-center.border.border-gray-400.text-white.bg-custom-blue.hover\:bg-custom-blue-light.focus\:ring-4.focus\:ring-primary-300.font-medium.rounded-lg.text-sm.px-4.py-2 {
+    font-weight: bold;
+}
+
+.form_compra{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.descripcion {
+    /* Establece un ancho máximo para evitar que el texto se extienda demasiado */
+    max-width: 100%;
+    /* Agrega un estilo para permitir saltos de línea */
+    white-space: pre-wrap;
+    /* Define un alto máximo si lo deseas */
+    max-height: 200px; /* Ajusta según tus necesidades */
+    /* Agrega scroll vertical si el contenido es muy largo */
+    overflow-y: auto; /* Cambia a 'scroll' si prefieres siempre mostrar la barra de desplazamiento */
+    /* Puedes agregar otros estilos según tu diseño */
+  }
+
+.card.form_compra {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding-top: 20px;
+    margin-left: -30px;
+}
